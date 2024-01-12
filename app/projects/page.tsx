@@ -1,8 +1,8 @@
 export default function Projects() {
     return (
-      <section>
-        <div>Competitive Programming</div>
-        <div>Chess</div>
+      <section className="center">
+        <div>Noir</div>
+        <div>GPS-Denied Lidar Localization</div>
       </section>
     )
 }
