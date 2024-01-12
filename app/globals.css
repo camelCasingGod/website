@@ -2,14 +2,50 @@ body {
   background: #020402;
 }
 
-.header {
-  color: #6faa6f;
-}
-
 .center {
   display: flex;
-  height: 100vh;
+  height: calc(100vh - 50px);
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 10px 0 0 10px;
+  font-size: 20px;
+  margin: 0;
+}
+
+.trans {
+  position: relative;
+  display: block;
+  color: #ecf0f1;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: 0.5s;
+
+  &::after {
+    position: absolute;
+    content: "";
+    top: 100%;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #3498db;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+  }
+
+  &:hover {
+    color: #95a5a6;
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
 }

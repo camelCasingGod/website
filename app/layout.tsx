@@ -12,12 +12,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <nav className='header'>
-          <Link className={rubik.className} href="/">Front</Link>
-          <Link className={rubik.className} href="/about">About</Link>
-          <Link className={rubik.className} href="/projects">Projects</Link>
-          <Link className={rubik.className} href="/competitions">Competitions</Link>
-        </nav>
+        <div className='navigation'>
+          <Link className={"trans " + rubik.className} href="/competitions">Competitions</Link>
+          <Link className={"trans " + rubik.className} href="/projects">Projects</Link>
+          <Link className={"trans " + rubik.className} href="/about">About</Link>
+          <Link className={"trans " + rubik.className} href="/">Front</Link>
+        </div>
         {children}
       </body>
     </html>
