@@ -10,7 +10,6 @@ export default function Competitions() {
           <h1 className={styles.compheader}>Competitive Programming</h1>
           <div className={styles.description}>
             <p>Rating: 726, max: 726</p>
-            <button></button>
           </div>
         </div>
 
