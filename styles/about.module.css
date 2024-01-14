@@ -1,0 +1,16 @@
+.aboutheader {
+    color: azure;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.aboutdesc {
+    color: blanchedalmond;
+    font-size: 20px;
+    padding-top: 0px;
+}
+
+.bullets {
+    margin-top: 5px;
+}
