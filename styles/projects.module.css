@@ -1,11 +1,26 @@
-.compheader {
+.aboutheader {
     color: azure;
     font-size: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
 
-.description {
+.aboutdesc {
     color: blanchedalmond;
     font-size: 20px;
+    padding-top: 0px;
+}
+
+.bullets {
+    margin-top: 5px;
+}
+
+.emph {
+    font-weight: bold;
+    color: aquamarine;
+}
+
+.projectname {
+    font-size: 35px;
+    color: azure;
 }
