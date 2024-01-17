@@ -1,7 +1,17 @@
 import styles from '../../styles/about.module.css'
 import { Rubik } from 'next/font/google'
+import postgres from 'postgres'
 
+const sql = postgres({
+  host:'localhost',
+  port:5432,
+  database:'website',
+  username:'postgres',
+  password:'pixelgun'
+})
 const rubik = Rubik({ subsets: ['latin'] })
+
+const age = await sql `SELECT * FROM age`.values();
 
 export default function About() {
     return (
@@ -13,7 +23,7 @@ export default function About() {
           <div className={styles.aboutdesc}>
             <p>
               Hi! I'm Ameya, a 3rd-Year student at University of California, Berkeley.
-              I'm a passionate and driven software engineer interested in web development, data science, and computer security, and I'm eager to tackle challenging, meaningful problems.
+              I'm a {age[0] + "-year old"} passionate and driven software engineer interested in web development, data science, and computer security, and I'm eager to tackle challenging, meaningful problems.
             </p>
           </div>
         </div>
