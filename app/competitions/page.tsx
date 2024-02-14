@@ -9,7 +9,7 @@ export default function Competitions() {
         <div className={styles.information}>
           <h1 className={styles.compheader}>Competitive Programming</h1>
           <div className={styles.description}>
-            <p>Codeforces Rating: 968, max: 968</p>
+            <p>Codeforces Rating: 1030, max: 1030</p>
           </div>
         </div>
 
