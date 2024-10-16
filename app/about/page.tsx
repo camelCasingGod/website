@@ -22,7 +22,7 @@ export default function About() {
           </h1>
           <div className={styles.aboutdesc}>
             <p>
-              Hi! I'm Ameya, a 3rd-Year student at University of California, Berkeley.
+              Hi! I'm Ameya, a 4th-Year undergrad at University of California, Berkeley.
               I'm a  passionate and driven software engineer interested in web development, data science, and computer security, and I'm eager to tackle challenging, meaningful problems.
               {/* {age[0] + "-year old"} */}
             </p>
@@ -48,6 +48,8 @@ export default function About() {
               <li>CS 61C: Machine Structures and Computer Architecture</li>
               <li>CS 161: Computer Security</li>
               <li>CS 162: Operating Systems</li>
+              <li>CS 164: Compiler Design</li>
+              <li>CS 188: Artificial Intelligence</li>
               <li>CS 189: Machine Learning</li>
               <li>CS 198-2: Introduction to Quantitative Finance</li>
               <li>CS 198-4: Introduction to Blockchain</li>

@@ -16,7 +16,7 @@ export default function Competitions() {
         <div className={styles.information}>
           <h1 className={styles.compheader}>Chess</h1>
           <div className={styles.description}>
-            <p>Chess.com Rating: 726, max: 800</p>
+            <p>Chess.com Rating: 722, max: 800</p>
           </div>
         </div>
       </section>
