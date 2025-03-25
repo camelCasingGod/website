@@ -13,6 +13,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div className='navigation'>
+          <Link className={"trans " + rubik.className} href="/extrapage">Extra</Link>
           <Link className={"trans " + rubik.className} href="/competitions">Competitions</Link>
           <Link className={"trans " + rubik.className} href="/projects">Projects</Link>
           <Link className={"trans " + rubik.className} href="/about">About</Link>
