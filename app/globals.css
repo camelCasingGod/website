@@ -57,3 +57,8 @@ body {
     transform-origin: left;
   }
 }
+
+.trans.active::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
