@@ -1,5 +1,5 @@
 body {
-  background: #020402;
+  background: #1D1616;
 }
 
 .center {
@@ -30,7 +30,7 @@ body {
 .trans {
   position: relative;
   display: block;
-  color: #ecf0f1;
+  color: #EEEEEE;
   text-decoration: none;
   margin-right: 10px;
   transition: 0.5s;
@@ -42,7 +42,7 @@ body {
     left: 0px;
     width: 100%;
     height: 2px;
-    background: blanchedalmond;
+    background: #8E1616;
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 0.5s;
